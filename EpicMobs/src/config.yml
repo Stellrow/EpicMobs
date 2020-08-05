@@ -1,0 +1,36 @@
+GeneralConfig:
+  chanceToReplaceMob: 5
+Mobs:
+  zombie:
+    health: 50
+    equipment:
+      helmet:
+        Type: LEATHER_HELMET
+        Enchantments:
+          - protection_envioremental 1
+      chestplate:
+        Type: CHAINMAIL_CHESTPLATE
+        Enchantments:
+          - protection 1
+      hand:
+        Type: WOODEN_SWORD
+        Enchantments:
+          - sharpness 3
+  skeleton:
+    health: 50
+    equipment:
+      helmet:
+        Type: TURTLE_HELMET
+        Enchantments:
+          - protection 1
+      chestplate:
+        Type: CHAINMAIL_CHESTPLATE
+        Enchantments:
+          - protection 1
+Rewards:
+  - 'eco give %player 500'
+  - 'eco give %player 1000'
+  - 'eco give %player 1500'
+  - 'give %player diamond 16'
+  - 'give %player diamond 8'
+  - 'give %player emeraldblock 1'
